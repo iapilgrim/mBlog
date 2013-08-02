@@ -40,4 +40,9 @@ namespace :deploy do
  task :restart, :roles => :app, :except => { :no_release => true } do
    run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
  end
+
+# to fix problem with assets not being precompiled on production server
+after 'deploy:update_code' do
+  	run "cd #{release_path}; RAILS_ENV=production rake assets:precompile"
+end 
 end
