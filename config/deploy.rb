@@ -35,6 +35,12 @@ role :db,  "77.93.202.253:5500"
 # Passenger
 
 namespace :deploy do
+	desc 'Re-establish database.yml'
+  	task :set_database_symlink do
+   	run "rm -fr #{current_path}/config/database.yml && cd #{current_path}/config &&
+      	ln -nfs #{shared_path}/database.yml database.yml" 
+  end
+
  task :start do ; end
  task :stop do ; end
  task :restart, :roles => :app, :except => { :no_release => true } do
@@ -42,6 +48,7 @@ namespace :deploy do
  end
 
 # to fix problem with assets not being precompiled on production server
+before "deploy:migrate", "deploy:set_database_symlink"
 after 'deploy:update_code' do
   	run "cd #{release_path}; RAILS_ENV=production rake assets:precompile"
 end 
