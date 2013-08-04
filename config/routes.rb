@@ -1,6 +1,8 @@
 Mblog::Application.routes.draw do
+  resources :articles
   resources :users
 
+  root to: 'dashboard#index'
   match '/users',  to: 'users#index'
 
   # The priority is based upon order of creation:
