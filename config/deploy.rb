@@ -41,14 +41,20 @@ namespace :deploy do
       	ln -nfs #{shared_path}/database.yml database.yml" 
   end
 
- task :start do ; end
- task :stop do ; end
- task :restart, :roles => :app, :except => { :no_release => true } do
-   run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
- end
+	desc 'run bundle install'
+  		task :install_bundle do
+    	run "cd #{current_path} && bundle install"
+  	end
 
-# to fix problem with assets not being precompiled on production server
+  	desc 'run the migration'
+  		task :migrate do
+    	run "cd #{current_path} && bundle exec rake db:migrate RAILS_ENV=production --trace"
+   end
+
+before "deploy:migrate", "deploy:install_bundle"
 before "deploy:migrate", "deploy:set_database_symlink"
+before "deploy:restart", "deploy:migrate"
+# to fix problem with assets not being precompiled on production server
 after 'deploy:update_code' do
   	run "cd #{release_path}; RAILS_ENV=production rake assets:precompile"
 end 
