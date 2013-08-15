@@ -1,0 +1,334 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"guard",
+				"guard-rspec"
+			],
+			[
+				"get",
+				"getPrimes"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1897,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/mousse/Dropbox/myGitWorkflow.txt",
+			"settings":
+			{
+				"buffer_size": 8060,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 505,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/database.yml",
+			"settings":
+			{
+				"buffer_size": 1494,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 54.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 149.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/mousse/ruby_projects/mblog/db/migrate/20130804201559_create_articles.rb",
+		"/home/mousse/ruby_projects/mblog/db/schema.rb",
+		"/home/mousse/ruby_projects/mblog/config/deploy.rb",
+		"/home/mousse/ruby_projects/mblog/app/controllers/articles_controller.rb",
+		"/home/mousse/ruby_projects/mblog/app/controllers/dashboard_controller.rb",
+		"/home/mousse/ruby_projects/mblog/app/views/articles/show.html.erb",
+		"/home/mousse/ruby_projects/mblog/app/views/articles/index.html.erb",
+		"/home/mousse/ruby_projects/mblog/app/views/articles/_form.html.erb",
+		"/home/mousse/ruby_projects/mblog/db/migrate/20130804203049_remove_name_article.rb",
+		"/home/mousse/ruby_projects/mblog/app/models/article.rb",
+		"/home/mousse/ruby_projects/mblog/app/views/dashboard/index.html.erb",
+		"/home/mousse/ruby_projects/mblog/config/application.rb",
+		"/home/mousse/ruby_projects/mblog/Gemfile",
+		"/home/mousse/ruby_projects/mblog/spec/spec_helper.rb",
+		"/home/mousse/ruby_projects/mblog/.rspec",
+		"/home/mousse/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/mousse/ruby_projects/mblog/config/environments/production.rb",
+		"/home/mousse/ruby_projects/mblog/app/controllers/users_controller.rb",
+		"/home/mousse/ruby_projects/mrecipes_ruby/config/routes.rb",
+		"/home/mousse/ruby_projects/mrecipes_ruby/spec/requests/micropost_pages_spec.rb",
+		"/home/mousse/ruby_projects/mrecipes_ruby/config/database.yml",
+		"/home/mousse/Dropbox/myGitWorkflow.txt",
+		"/home/mousse/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/home/mousse/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/mousse/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/mousse/Documents/Coursera - startup course/HW3/gentle-garden-1549/web.js",
+		"/home/mousse/Documents/Coursera - startup course/HW3/gentle-garden-1549/index.html",
+		"/home/mousse/Documents/Coursera - startup course/HW2/market-research.js",
+		"/home/mousse/Documents/Coursera - startup course/HW3/mySites.txt",
+		"/home/mousse/Documents/Coursera - startup course/HW2/market-research.csv",
+		"/home/mousse/Documents/Coursera - startup course/HW2/market-research-wrapper.js",
+		"/home/mousse/Documents/Coursera - startup course/HW1/text_output.js",
+		"/home/mousse/Documents/Coursera - startup course/HW1/prime_number.js",
+		"/home/mousse/Documents/Coursera - startup course/HW1/prime_numbers.txt"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/mousse/Dropbox/myGitWorkflow.txt",
+					"settings":
+					{
+						"buffer_size": 8060,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								483
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/database.yml",
+					"settings":
+					{
+						"buffer_size": 1494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								300,
+								300
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 344.0,
+	"status_bar_visible": true
+}

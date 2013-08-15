@@ -1,5 +1,7 @@
 Mblog::Application.routes.draw do
-  resources :articles
+  resources :articles do
+    resources :comments # for more information check RoR guides and chapter Rails Routing from outside In
+  end  
   resources :users
 
   root to: 'dashboard#index'
