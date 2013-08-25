@@ -7,7 +7,6 @@ Mblog::Application.routes.draw do
   resources :ingredients
 
   root to: 'dashboard#index'
-  match '/users',  to: 'users#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

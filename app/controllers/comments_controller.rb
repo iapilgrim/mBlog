@@ -3,7 +3,7 @@ class CommentsController < ApplicationController
 
 	def create
     @article = Article.find(params[:article_id])
-    @comment = @article.comments.create(params[:comment]) # This will automatically link the comment so that it belongs to that particular article.
+    @comment = @article.comments.create(comment_params) # This will automatically link the comment so that it belongs to that particular article.
     redirect_to article_path(@article)
   end
 
@@ -13,4 +13,9 @@ class CommentsController < ApplicationController
     @comment.destroy
     redirect_to article_path(@article)
   end
+
+  def comment_params
+    params.require(:comment).permit(:body, :commenter)
+  end
+
 end

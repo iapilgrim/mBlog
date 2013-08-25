@@ -41,7 +41,7 @@ class ArticlesController < ApplicationController
   # POST /articles
   # POST /articles.json
   def create
-    @article = Article.new(params[:article])
+    @article = Article.new(article_params)
 
     respond_to do |format|
       if @article.save
@@ -60,7 +60,7 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id])
 
     respond_to do |format|
-      if @article.update_attributes(params[:article])
+      if @article.update_attributes(article_params)
         format.html { redirect_to @article, notice: 'Article was successfully updated.' }
         format.json { head :no_content }
       else
@@ -81,4 +81,10 @@ class ArticlesController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+private
+  def article_params
+    params.require(:article).permit(:content, :title)
+  end
+
 end

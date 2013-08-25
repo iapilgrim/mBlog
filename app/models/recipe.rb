@@ -1,7 +1,4 @@
 class Recipe < ActiveRecord::Base
-  attr_accessible :description, 
-                  :name, 
-                  :ingredient_in_recipes_attributes
 
   has_many :ingredient_in_recipes, :dependent => :destroy
   has_many :ingredients, 

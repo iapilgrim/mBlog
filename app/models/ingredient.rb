@@ -1,5 +1,5 @@
 class Ingredient < ActiveRecord::Base
-  attr_accessible :description, :name
+#  attr_accessible :description, :name
   
   has_many :ingredient_in_recipes
   has_many :recipes, :through => :ingredient_in_recipes
