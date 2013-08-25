@@ -1,0 +1,31 @@
+<%= form_for @recipe do |f| %>
+<fieldset>
+<h2>Recipe</h2>
+  <p> 
+    <%= f.label :name %><br />
+    <%= f.text_field :name %><br />
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+</fieldset>
+
+
+<!-- using cocoon gem -->
+<fieldset>
+<ol>
+  <%= f.fields_for :ingredient_in_recipes do |quantity| %>
+    <%= render 'ingredient_in_recipe_fields', f: quantity %>
+  <% end %>
+</ol>
+<%= link_to_add_association 'add ingredient', f, :ingredient_in_recipes, :wrap_object => Proc.new {|quantity| quantity.build_ingredient; quantity } %> 
+</fieldset>
+
+
+
+
+
+
+
+
+  <p><%= f.submit "Submit" %></p>
+<% end %>

@@ -3,6 +3,8 @@ Mblog::Application.routes.draw do
     resources :comments # for more information check RoR guides and chapter Rails Routing from outside In
   end  
   resources :users
+  resources :recipes
+  resources :ingredients
 
   root to: 'dashboard#index'
   match '/users',  to: 'users#index'

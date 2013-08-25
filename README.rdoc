@@ -1,11 +1,14 @@
 mBlog stands for Michal's blog - it is my first RoR application used to start a simple blog and to learn RoR in the process.
 
 TODO
-- add controllers and views for dealing with recipes
+- add autocomplete for adding ingredients in recipe, so it will be possible to add existing one
+- add controllers and views for dealing with steps
 - change this text properly
 - change the authentication way
 - refactor Dashboard controller
 - use FB for comments (I don't want to deal with internal comments)
 
 DONE
+- it is possible to add recipes with ingredients and amounts of those ingredients
+
 - add models for recipes with ingredients and steps - recipe can have many ingredients and many steps; ingredient can belong to many recipes and to many steps and it is associated with amount (which can be different for recipe and for step); step can have many ingredients and it belongs to one recipe.

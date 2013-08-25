@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ingred",
+				"ingredient_in_steps"
+			],
+			[
 				"guard",
 				"guard-rspec"
 			],
@@ -19,31 +23,63 @@
 			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 1897,
+				"buffer_size": 2014,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/mousse/Dropbox/myGitWorkflow.txt",
+			"file": "README.rdoc",
 			"settings":
 			{
-				"buffer_size": 8060,
+				"buffer_size": 653,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": ".gitignore",
+			"file": "app/models/article.rb",
 			"settings":
 			{
-				"buffer_size": 505,
+				"buffer_size": 206,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "config/database.yml",
+			"file": "app/models/recipe.rb",
 			"settings":
 			{
-				"buffer_size": 1494,
+				"buffer_size": 236,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/ingredient_in_step.rb",
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/ingredient_in_recipe.rb",
+			"settings":
+			{
+				"buffer_size": 129,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/ingredient.rb",
+			"settings":
+			{
+				"buffer_size": 302,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/step.rb",
+			"settings":
+			{
+				"buffer_size": 186,
 				"line_ending": "Unix"
 			}
 		}
@@ -92,17 +128,32 @@
 	},
 	"file_history":
 	[
+		"/home/mousse/ruby_projects/mblog/db/migrate/20130815215938_add_column_to_steps.rb",
+		"/home/mousse/ruby_projects/mblog/app/models/comment.rb",
+		"/home/mousse/ruby_projects/mblog/app/views/dashboard/index.html.erb",
+		"/home/mousse/ruby_projects/mblog/app/controllers/dashboard_controller.rb",
+		"/home/mousse/ruby_projects/mblog/db/migrate/20130815213200_create_ingredient_in_recipes.rb",
+		"/home/mousse/Dropbox/myGitWorkflow.txt",
+		"/home/mousse/ruby_projects/mblog/Capfile",
+		"/home/mousse/ruby_projects/mblog/config/deploy.rb",
+		"/home/mousse/ruby_projects/mblog/app/views/articles/_form.html.erb",
+		"/home/mousse/ruby_projects/mblog/app/controllers/articles_controller.rb",
+		"/home/mousse/ruby_projects/mblog/app/helpers/articles_helper.rb",
+		"/home/mousse/ruby_projects/mblog/app/views/articles/_list.html.erb",
+		"/home/mousse/ruby_projects/mblog/app/views/articles/index.html.erb",
+		"/home/mousse/ruby_projects/mblog/app/views/articles/_list",
+		"/home/mousse/ruby_projects/mblog/app/views/articles/show.html.erb",
+		"/home/mousse/ruby_projects/mblog/app/views/comments/_form.html.erb",
+		"/home/mousse/ruby_projects/mblog/app/controllers/comments_controller.rb",
+		"/home/mousse/ruby_projects/mblog/app/views/comments/_comment.html.erb",
+		"/home/mousse/ruby_projects/mblog/app/models/article.rb",
+		"/home/mousse/ruby_projects/mblog/README.rdoc",
+		"/home/mousse/ruby_projects/mblog/config.ru",
+		"/home/mousse/ruby_projects/mblog/.gitignore",
+		"/home/mousse/ruby_projects/mblog/config/database.yml",
 		"/home/mousse/ruby_projects/mblog/db/migrate/20130804201559_create_articles.rb",
 		"/home/mousse/ruby_projects/mblog/db/schema.rb",
-		"/home/mousse/ruby_projects/mblog/config/deploy.rb",
-		"/home/mousse/ruby_projects/mblog/app/controllers/articles_controller.rb",
-		"/home/mousse/ruby_projects/mblog/app/controllers/dashboard_controller.rb",
-		"/home/mousse/ruby_projects/mblog/app/views/articles/show.html.erb",
-		"/home/mousse/ruby_projects/mblog/app/views/articles/index.html.erb",
-		"/home/mousse/ruby_projects/mblog/app/views/articles/_form.html.erb",
 		"/home/mousse/ruby_projects/mblog/db/migrate/20130804203049_remove_name_article.rb",
-		"/home/mousse/ruby_projects/mblog/app/models/article.rb",
-		"/home/mousse/ruby_projects/mblog/app/views/dashboard/index.html.erb",
 		"/home/mousse/ruby_projects/mblog/config/application.rb",
 		"/home/mousse/ruby_projects/mblog/Gemfile",
 		"/home/mousse/ruby_projects/mblog/spec/spec_helper.rb",
@@ -113,7 +164,6 @@
 		"/home/mousse/ruby_projects/mrecipes_ruby/config/routes.rb",
 		"/home/mousse/ruby_projects/mrecipes_ruby/spec/requests/micropost_pages_spec.rb",
 		"/home/mousse/ruby_projects/mrecipes_ruby/config/database.yml",
-		"/home/mousse/Dropbox/myGitWorkflow.txt",
 		"/home/mousse/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
 		"/home/mousse/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/mousse/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
@@ -129,7 +179,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -143,6 +193,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"post",
+			"Post",
+			"post",
+			"post_id",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"end",
+			"post"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -160,6 +220,7 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -167,15 +228,15 @@
 					"file": "config/routes.rb",
 					"settings":
 					{
-						"buffer_size": 1897,
+						"buffer_size": 2014,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								55,
-								55
+								411,
+								411
 							]
 						],
 						"settings":
@@ -192,18 +253,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/home/mousse/Dropbox/myGitWorkflow.txt",
+					"file": "README.rdoc",
 					"settings":
 					{
-						"buffer_size": 8060,
+						"buffer_size": 653,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								142,
-								142
+								124,
+								124
 							]
 						],
 						"settings":
@@ -218,23 +279,55 @@
 				},
 				{
 					"buffer": 2,
-					"file": ".gitignore",
+					"file": "app/models/article.rb",
 					"settings":
 					{
-						"buffer_size": 505,
+						"buffer_size": 206,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								483,
-								483
+								206,
+								206
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "app/models/recipe.rb",
+					"settings":
+					{
+						"buffer_size": 236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -243,26 +336,102 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "config/database.yml",
+					"buffer": 4,
+					"file": "app/models/ingredient_in_step.rb",
 					"settings":
 					{
-						"buffer_size": 1494,
+						"buffer_size": 125,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								300,
-								300
+								125,
+								125
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/models/ingredient_in_recipe.rb",
+					"settings":
+					{
+						"buffer_size": 129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/models/ingredient.rb",
+					"settings":
+					{
+						"buffer_size": 302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/models/step.rb",
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -290,11 +459,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.413123844732,
 			1.0
 		],
 		"rows":
@@ -329,6 +505,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 344.0,
+	"side_bar_width": 297.0,
 	"status_bar_visible": true
 }

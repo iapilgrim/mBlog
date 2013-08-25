@@ -1,0 +1,16 @@
+<li class="nested-fields">
+    <%= f.label :amount, "Amount:" %>
+    <%= f.text_field :amount %>
+
+    <%= f.label :unit, "Unit:" %>
+    <%= f.text_field :unit %>
+
+    <%= f.fields_for :ingredient do |ff| %>
+      <%= ff.label :name, "Name:" %>
+      <%= ff.text_field :name %>
+      <%= ff.label :description, "Description:" %>
+      <%= ff.text_field :description %>
+    <% end %>
+
+    <%= link_to_remove_association "remove", f %>
+</li>
