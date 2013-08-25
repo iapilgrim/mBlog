@@ -35,6 +35,7 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    chunky_png (1.2.8)
     cocoon (1.2.0)
     coderay (1.0.9)
     coffee-rails (4.0.0)
@@ -44,6 +45,12 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    compass-rails (1.0.3)
+      compass (>= 0.12.2, < 0.14)
     database_cleaner (1.1.1)
     diff-lcs (1.2.4)
     erubis (2.7.0)
@@ -57,6 +64,7 @@ GEM
       i18n (~> 0.5)
     ffi (1.9.0)
     formatador (0.2.4)
+    fssm (0.2.10)
     guard (1.8.2)
       formatador (>= 0.2.4)
       listen (>= 1.0.0)
@@ -159,6 +167,8 @@ GEM
       multi_json (~> 1.0, >= 1.0.2)
     xpath (2.0.0)
       nokogiri (~> 1.3)
+    zurb-foundation (4.0.9)
+      sass (>= 3.2.0)
 
 PLATFORMS
   ruby
@@ -167,6 +177,7 @@ DEPENDENCIES
   capybara
   cocoon
   coffee-rails (~> 4.0.0)
+  compass-rails
   database_cleaner
   factory_girl_rails
   faker
@@ -178,3 +189,4 @@ DEPENDENCIES
   rspec-rails
   sass-rails (~> 4.0.0)
   uglifier (>= 1.3.0)
+  zurb-foundation (~> 4.0.0)

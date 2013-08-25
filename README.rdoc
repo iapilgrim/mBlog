@@ -9,6 +9,7 @@ TODO
 - use FB for comments (I don't want to deal with internal comments)
 
 DONE
+- migrated to Rails 4
 - it is possible to add recipes with ingredients and amounts of those ingredients
 
 - add models for recipes with ingredients and steps - recipe can have many ingredients and many steps; ingredient can belong to many recipes and to many steps and it is associated with amount (which can be different for recipe and for step); step can have many ingredients and it belongs to one recipe.

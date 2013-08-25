@@ -1,6 +1,16 @@
 <h1>mBlog</h1>
 
-<%= render "articles/list" %>
-<%= link_to "Articles", articles_path %>
-<%= link_to "Recipes", recipes_path %>
+<div class="row">
+  <div class="large-6 columns">
+    <%= render "articles/list" %>
+    <%= link_to "Articles", articles_path %>
+  </div>
+
+  <div class="large-6 columns">
+    <%= render "recipes/list" %>
+    <%= link_to "Recipes", recipes_path %>
+  </div>
+</div>
+
+
 

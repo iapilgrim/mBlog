@@ -7,6 +7,8 @@ gem 'rails', '4.0.0'
 
 gem 'pg'
 gem 'jquery-rails'
+
+# for easy adding and deleting nested attributes through javascript (ingredients in recipe)
 gem 'cocoon'
 
 # there are no assets in Rails 4
@@ -14,10 +16,11 @@ gem 'cocoon'
 # in production environments by default.
   gem 'sass-rails',   '~> 4.0.0'
   gem 'coffee-rails', '~> 4.0.0'
-
   	# See https://github.com/sstephenson/execjs#readme for more supported runtimes
   	# gem 'therubyracer', :platforms => :ruby
   gem 'uglifier', '>= 1.3.0'
+  gem 'compass-rails'
+  gem 'zurb-foundation', '~> 4.0.0'
 
 group :development, :test do
 	gem 'rspec-rails'

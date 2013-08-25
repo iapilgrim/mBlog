@@ -82,8 +82,9 @@ class RecipesController < ApplicationController
     end
   end
 
+# there has to be ID so deleting will work, same for _destroy
 private
   def recipe_params
-    params.require(:recipe).permit(:description, :name, ingredient_in_recipes_attributes: [:amount, :unit, :ingredient, ingredient_attributes:[:description, :name]])
+    params.require(:recipe).permit(:description, :name, ingredient_in_recipes_attributes: [:id, :amount, :unit, :ingredient, :_destroy, ingredient_attributes:[:id, :description, :name, :_destroy]])
   end
 end

@@ -11,13 +11,16 @@
 
 
 <!-- using cocoon gem -->
-<fieldset>
+<fieldset id="recipe-ingredients">
 <ol>
   <%= f.fields_for :ingredient_in_recipes do |quantity| %>
     <%= render 'ingredient_in_recipe_fields', f: quantity %>
   <% end %>
 </ol>
-<%= link_to_add_association 'add ingredient', f, :ingredient_in_recipes, :wrap_object => Proc.new {|quantity| quantity.build_ingredient; quantity } %> 
+<%= link_to_add_association 'add ingredient', f, :ingredient_in_recipes, 
+  'data-association-insertion-node' => "#recipe-ingredients ol",
+  'data-association-insertion-method' => "append",
+  :wrap_object => Proc.new {|quantity| quantity.build_ingredient; quantity } %> 
 </fieldset>
 
 

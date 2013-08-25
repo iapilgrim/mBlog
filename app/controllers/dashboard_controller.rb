@@ -2,6 +2,7 @@
 class DashboardController < ApplicationController
   def index
     @articles = Article.all
+    @recipes = Recipe.all
 
     respond_to do |format|
       format.html # index.html.erb
