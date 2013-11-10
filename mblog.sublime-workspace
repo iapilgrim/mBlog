@@ -43,71 +43,7 @@
 			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 2060,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.rdoc",
-			"settings":
-			{
-				"buffer_size": 830,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/recipes/_form.html.erb",
-			"settings":
-			{
-				"buffer_size": 623,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Capfile",
-			"settings":
-			{
-				"buffer_size": 166,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/environments/production.rb",
-			"settings":
-			{
-				"buffer_size": 2479,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/environments/development.rb",
-			"settings":
-			{
-				"buffer_size": 1372,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 1315,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/javascripts/application.js",
-			"settings":
-			{
-				"buffer_size": 655,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 272,
+				"buffer_size": 2023,
 				"line_ending": "Unix"
 			}
 		}
@@ -115,9 +51,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 54.0,
+		"height": 112.0,
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -131,19 +75,18 @@
 				"Package Control: Install Package"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"list",
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 530.0
 	},
 	"console":
 	{
-		"height": 149.0
+		"height": 149.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -156,6 +99,16 @@
 	},
 	"file_history":
 	[
+		"/home/mousse/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/mousse/.config/sublime-text-3/Packages/SideBarEnhancements/CHANGELOG",
+		"/home/mousse/ruby_projects/mBlog/README.rdoc",
+		"/home/mousse/ruby_projects/mBlog/app/views/recipes/_form.html.erb",
+		"/home/mousse/ruby_projects/mBlog/Capfile",
+		"/home/mousse/ruby_projects/mBlog/config/environments/production.rb",
+		"/home/mousse/ruby_projects/mBlog/config/environments/development.rb",
+		"/home/mousse/ruby_projects/mBlog/Gemfile",
+		"/home/mousse/ruby_projects/mBlog/app/assets/javascripts/application.js",
+		"/home/mousse/ruby_projects/mBlog/app/views/layouts/application.html.erb",
 		"/home/mousse/ruby_projects/mblog/app/views/recipes/index.html.erb",
 		"/home/mousse/ruby_projects/mblog/app/views/recipes/show.html.erb",
 		"/home/mousse/ruby_projects/mblog/app/assets/javascripts/application.js",
@@ -286,23 +239,24 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "config/routes.rb",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2060,
+						"buffer_size": 2023,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								237,
-								237
+								641,
+								641
 							]
 						],
 						"settings":
@@ -310,220 +264,6 @@
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "README.rdoc",
-					"settings":
-					{
-						"buffer_size": 830,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								226,
-								226
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/recipes/_form.html.erb",
-					"settings":
-					{
-						"buffer_size": 623,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								249,
-								249
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Capfile",
-					"settings":
-					{
-						"buffer_size": 166,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								166,
-								166
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "config/environments/production.rb",
-					"settings":
-					{
-						"buffer_size": 2479,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								639,
-								639
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 102.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "config/environments/development.rb",
-					"settings":
-					{
-						"buffer_size": 1372,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "Gemfile",
-					"settings":
-					{
-						"buffer_size": 1315,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								369,
-								369
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/assets/javascripts/application.js",
-					"settings":
-					{
-						"buffer_size": 655,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								655,
-								655
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 102.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/views/layouts/application.html.erb",
-					"settings":
-					{
-						"buffer_size": 272,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								271,
-								271
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -565,6 +305,7 @@
 		]
 	},
 	"menu_visible": true,
+	"project": "mblog.sublime-project",
 	"replace":
 	{
 		"height": 0.0
@@ -586,10 +327,24 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 270.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

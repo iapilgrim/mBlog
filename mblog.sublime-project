@@ -2,7 +2,8 @@
 	"folders":
 	[
 		{
-			"path": "/home/mousse/ruby_projects/mblog"
+			"follow_symlinks": true,
+			"path": "/home/mousse/ruby_projects/mBlog"
 		}
 	]
 }
