@@ -11,11 +11,14 @@ require "bundler/capistrano"
 
 # General
 
+server "77.93.202.210:3400", :web, :app, :db, primary: true
+
 set :application, "mblog"
 set :user, "mousse"
 
-set :deploy_to, "/home/#{user}/#{application}"
+set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :copy
+#set :deploy_via, :remote_cache
 
 set :use_sudo, false
 
@@ -25,12 +28,9 @@ set :scm, :git
 set :repository,  "~/ruby_projects/#{application}/.git"
 set :branch, "master"
 
-# VPS
+after "deploy", "deploy:cleanup" # keep only the last 5 releases
 
-role :web, "77.93.202.253:5500"
-role :app, "77.93.202.253:5500"
-role :db,  "77.93.202.253:5500", :primary => true
-role :db,  "77.93.202.253:5500"
+
 
 # Passenger
 
