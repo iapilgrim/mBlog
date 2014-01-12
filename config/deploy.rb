@@ -45,6 +45,8 @@ namespace :deploy do
 
 	desc 'run bundle install'
   		task :install_bundle do
+        run "cd #{current_path}/config &&
+        ln -nfs #{shared_path}/database.yml database.yml" 
     	run "cd #{current_path} && bundle install"
   	end
 
