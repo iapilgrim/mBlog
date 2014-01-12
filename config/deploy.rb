@@ -39,14 +39,13 @@ namespace :deploy do
   	task :set_database_symlink do
       # belongs to code below
       # rm -fr #{current_path}/config/database.yml && 
-   	run "cd #{current_path}/config &&
-      	ln -nfs #{shared_path}/database.yml database.yml" 
+   	run "ln -nfs #{shared_path}/database.yml #{release_path}/config/database.yml" 
   end
+
+  after "deploy:finalize_update", "deploy:set_database_symlink"
 
 	desc 'run bundle install'
   		task :install_bundle do
-        run "cd #{current_path}/config &&
-        ln -nfs #{shared_path}/database.yml database.yml" 
     	run "cd #{current_path} && bundle install"
   	end
 
@@ -55,7 +54,6 @@ namespace :deploy do
     run "cd #{current_path} && bundle exec rake db:migrate RAILS_ENV=production --trace"
    end
 
-before "deploy:install_bundle", "deploy:set_database_symlink"
 before "deploy:migrate", "deploy:install_bundle"
 before "deploy:migrate", "deploy:set_database_symlink"
 before "deploy:restart", "deploy:migrate"
