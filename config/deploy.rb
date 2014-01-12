@@ -37,7 +37,9 @@ after "deploy", "deploy:cleanup" # keep only the last 5 releases
 namespace :deploy do
 	desc 'Re-establish database.yml'
   	task :set_database_symlink do
-   	run "rm -fr #{current_path}/config/database.yml && cd #{current_path}/config &&
+      # belongs to code below
+      # rm -fr #{current_path}/config/database.yml && 
+   	run "cd #{current_path}/config &&
       	ln -nfs #{shared_path}/database.yml database.yml" 
   end
 
