@@ -13,7 +13,7 @@ require "bundler/capistrano"
 
 server "77.93.202.210:3400", :web, :app, :db, primary: true
 
-set :application, "mblog"
+set :application, "mBlog"
 set :user, "mousse"
 
 set :deploy_to, "/home/#{user}/apps/#{application}"
@@ -51,6 +51,7 @@ namespace :deploy do
     run "cd #{current_path} && bundle exec rake db:migrate RAILS_ENV=production --trace"
    end
 
+before "deploy:install_bundle", "deploy:set_database_symlink"
 before "deploy:migrate", "deploy:install_bundle"
 before "deploy:migrate", "deploy:set_database_symlink"
 before "deploy:restart", "deploy:migrate"

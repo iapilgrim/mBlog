@@ -22,8 +22,11 @@ gem 'cocoon'
 
   # needed for getting compass compatible with rails 4
   # gem 'compass-rails', github: 'milgner/compass-rails', branch: 'rails4'
-  gem 'compass-rails'
+  
+  # gem 'compass-rails'
   gem 'zurb-foundation', '~> 4.0.0'
+
+  gem 'rvm-capistrano'
 
 group :development, :test do
 	gem 'rspec-rails', '2.14.0'
