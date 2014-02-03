@@ -10,4 +10,7 @@ describe User do
     it "is invalid without name" do
       expect(User.new(name: nil)).to have(1).errors_on(:name)
     end
+
+    it "is invalid with a duplicate email address" 
+
 end
