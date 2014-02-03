@@ -1,5 +1,6 @@
 mBlog stands for Michal's blog - it is my first RoR application used to start a simple blog and to learn RoR in the process.
 
+And now I changed some stuff from Cloud 9
 Just started writing tests in new git branch
 
 TODO
