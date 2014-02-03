@@ -1,8 +1,10 @@
 mBlog stands for Michal's blog - it is my first RoR application used to start a simple blog and to learn RoR in the process.
 
+Just started writing tests in new git branch
+
 TODO
 - Start working in Cloud 9
-- start writin rSpec tests
+- start writing rSpec tests
 - add autocomplete for adding ingredients in recipe, so it will be possible to add existing one
 - add controllers and views for dealing with steps
 - change this text properly
