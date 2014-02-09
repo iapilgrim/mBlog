@@ -32,6 +32,7 @@ group :development, :test do
 	gem 'rspec-rails', '2.14.0'
 	gem 'factory_girl_rails', '4.2.1'
   gem 'capistrano', '~> 2.15'
+  gem 'shoulda'
   # gem 'guard-rspec', '1.2.1'
   # gem 'guard-spork'
  	# gem 'spork', '0.9.2'

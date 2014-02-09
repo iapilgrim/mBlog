@@ -1,10 +1,10 @@
 class Recipe < ActiveRecord::Base
 
-  validates :name, :presence => true
+  validates :name, presence: true
 
   has_many :ingredient_in_recipes, :dependent => :destroy
   has_many :ingredients, 
-            :through => :ingredient_in_recipes
+           :through => :ingredient_in_recipes
 
   has_many :steps, :dependent => :destroy
 
