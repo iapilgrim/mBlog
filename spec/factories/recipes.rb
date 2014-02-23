@@ -14,5 +14,8 @@ FactoryGirl.define do
     #   end
     # end
 
+    factory :invalid_recipe do
+      name nil
+    end
   end
 end

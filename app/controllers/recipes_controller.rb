@@ -1,5 +1,6 @@
 class RecipesController < ApplicationController
-  http_basic_authenticate_with :name => "mousse", :password => "mousse", :except => [:index, :show]  
+  # http_basic_authenticate_with :name => "mousse", :password => "mousse", :except => [:index, :show]  
+  
   # GET /articles
   # GET /articles.json
   def index
