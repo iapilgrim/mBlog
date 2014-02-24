@@ -4,5 +4,7 @@ rvm:
 before_script:
   - cp config/database.travis.yml config/database.yml
   - psql -c 'create database myapp_test;' -U postgres
+  - bundle exec rake db:migrate --trace
+  - bundle exec rake db:test:prepare --trace
 script:
   - bundle exec rspec  
