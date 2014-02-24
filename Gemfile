@@ -28,12 +28,21 @@ gem 'cocoon'
 
   gem 'rvm-capistrano'
 
+  # To use ActiveModel has_secure_password
+  gem 'bcrypt-ruby', '~> 3.0.0'
+
+group :development do
+  gem 'guard-rspec'
+  gem 'guard-spork'
+  gem 'spork-rails' #, github: 'sporkrb/spork-rails'
+end
+
 group :development, :test do
 	gem 'rspec-rails', '2.14.0'
 	gem 'factory_girl_rails', '4.2.1'
   gem 'capistrano', '~> 2.15'
   gem 'shoulda'
-  # gem 'guard-rspec', '1.2.1'
+  # gem 'guard-rspec'
   # gem 'guard-spork'
  	# gem 'spork', '0.9.2'
 end
