@@ -4,6 +4,7 @@ And now I changed some stuff from Cloud 9
 Just started writing tests in new git branch
 
 TODO
+- starting on feature tests
 - Play with CI server on DigitalOcean
 - Start working in Cloud 9
 - start writing rSpec tests
