@@ -19,7 +19,7 @@ gem 'cocoon'
   	# See https://github.com/sstephenson/execjs#readme for more supported runtimes
   	# gem 'therubyracer', :platforms => :ruby
   gem 'uglifier', '>= 1.3.0'
-
+  gem 'annotate'
   # needed for getting compass compatible with rails 4
   # gem 'compass-rails', github: 'milgner/compass-rails', branch: 'rails4'
 

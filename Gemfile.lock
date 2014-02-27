@@ -26,6 +26,9 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     addressable (2.3.5)
+    annotate (2.6.2)
+      activerecord (>= 2.3.0)
+      rake (>= 0.8.7)
     arel (4.0.0)
     atomic (1.1.13)
     bcrypt-ruby (3.0.1)
@@ -204,6 +207,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate
   bcrypt-ruby (~> 3.0.0)
   capistrano (~> 2.15)
   capybara (~> 2.1.0)
