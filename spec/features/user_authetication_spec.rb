@@ -11,8 +11,8 @@ feature 'user authentication' do
     expect{
     click_link 'Sign up'
     fill_in 'Email', with: 'newuser@example.com'
-    fill_in 'Password', with: 'Secret123'
-    fill_in 'Password confirmation', with: 'Secret123'
+    find('#password').fill_in 'Password', with: 'Secret123'
+    find('#password_confirmation').fill_in 'Password confirmation', with: 'Secret123'
     click_button 'Sign up'}.to change(User, :count).by(1)
 
     # rewrite exectation to expect current_user path - user is redirected to his/her profile after signing up
