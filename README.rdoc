@@ -4,9 +4,10 @@ And now I changed some stuff from Cloud 9
 Just started writing tests in new git branch
 
 TODO
-- Play with CI server on DigitalOcean
-- Start working in Cloud 9
 - start writing rSpec tests
+  - write feature test for existing feature
+  - write feautre test for new feature - user authentication
+  - implement that feature 
 - add autocomplete for adding ingredients in recipe, so it will be possible to add existing one
 - add controllers and views for dealing with steps
 - change this text properly
